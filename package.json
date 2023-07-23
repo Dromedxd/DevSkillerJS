@@ -1,0 +1,17 @@
+{
+  "name": "devskiller-javascript-word-search-easy",
+  "private": true,
+  "author": "Devskiller",
+  "scripts": {
+    "test": "babel-node test",
+    "test:watch": "chokidar \"**/*.js\" -c \"npm test\" --silent --initial --ignore node_modules"
+  },
+  "devDependencies": {
+    "@babel/core": "7.21.0",
+    "@babel/node": "7.20.7",
+    "@babel/preset-env": "7.20.2",
+    "chokidar-cli": "3.0.0",
+    "jasmine": "4.5.0",
+    "jasmine-reporters": "2.5.2"
+  }
+}
